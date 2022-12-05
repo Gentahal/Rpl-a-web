@@ -77,9 +77,27 @@ img {
     animation: bounce .6s infinite ease alternate;
 }
 
-.image-about{
-    background-size: cover;
+.main-about{
+    background: #4c4c4c;
 }
+
+.swiper{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 /* Main END*/
 

@@ -65,28 +65,30 @@ html.dark {
 /* Image Welcome END */
 
 /* Teachers */
-.teachers {
+@media (min-width: 768px) {
+  .teachers {
+    margin-top: -100px;
+  }
+
+  .teachers .teachers-wrapper {
+    max-width: 1000px;
+    width: auto !important;
+  }
 }
 
 .teacher {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: max-content;
-  align-items: flex-end;
-}
-
-.teacher > * {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.teacher .box {
-  background-color: var(--primary);
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  height: 300px;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  box-shadow: rgba(0, 136, 204, 0.6) 15px 10px 15px;
 }
 /* Teachers end */
+
+/* About Text */
+.about-text {
+  max-width: 1500px;
+  text-align: justify;
+}
+/* About Text End*/
 
 .text-title {
 	font-size: 2em;

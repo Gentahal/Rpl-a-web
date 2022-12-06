@@ -8,6 +8,11 @@
     --black: #000;
 }
 
+@font-face {
+  font-family: "SF Pro";
+  src: url(../fonts/SF-Pro.ttf);
+}
+
 ion-icon {
     color: #ffe600;
 }
@@ -59,6 +64,10 @@ img {
 		url(../images/hero.png);
 	background-size: cover;
 	background-position: center;
+}
+
+.hero h1 {
+  font-family: 'SF Pro';
 }
 
 /* Image Welcome */

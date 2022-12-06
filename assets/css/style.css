@@ -34,12 +34,8 @@ img {
 
 /* Navbar */
 
-.navbar {
-    background-color: var(--primary);
-}
-
-.bg-primary {
-    background-color: var(--primary);
+.bg-idn {
+	background-color: var(--primary);
 }
 
 /* Navbar end */

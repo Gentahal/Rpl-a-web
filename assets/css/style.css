@@ -151,10 +151,11 @@ img {
 .logo img {
 	width: 60px;
 	transition: 0.3s;
+  margin-left: -20px;
 }
 
-.logo img:not(:first-child) {
-	margin-left: -20px;
+.logo img:first-child {
+	margin-left: 0;
 }
 
 .logo img:hover + img {

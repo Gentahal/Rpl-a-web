@@ -8,6 +8,11 @@
     --black: #000;
 }
 
+@font-face {
+  font-family: "SF Pro";
+  src: url(../fonts/SF-Pro.ttf);
+}
+
 ion-icon {
     color: #ffe600;
 }
@@ -32,6 +37,10 @@ img {
     width: 100%;
 }
 
+img {
+	width: 100%;
+}
+
 /* Navbar */
 
 .bg-idn {
@@ -42,9 +51,23 @@ img {
 
 /* Main */
 .main {
-    width: 100vw;
-    background: var(--primary);
-    color: var(--secondaryy);
+	width: 100vw;
+	background: var(--primary);
+	color: var(--secondaryy);
+}
+
+.hero {
+	background: var(--primary);
+	color: var(--secondaryy);
+	min-height: 300px;
+	background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)),
+		url(../images/hero.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.hero h1 {
+  font-family: 'SF Pro';
 }
 
 /* Image Welcome */
@@ -59,6 +82,24 @@ img {
 }
 
 /* Image Welcome END */
+
+/* Teachers */
+@media (min-width: 768px) {
+	.teachers {
+		margin-top: -100px;
+	}
+
+	.teachers .teachers-wrapper {
+		max-width: 1000px;
+		width: auto !important;
+	}
+}
+
+.teacher {
+	border-top-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	box-shadow: rgba(0, 136, 204, 0.6) 15px 10px 15px;
+}
 
 .text-title {
     font-size: 2em;
@@ -79,37 +120,28 @@ img {
 
 .swiper {
     width: 100%;
-    height: 100%;
-  }
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Teachers end */
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+/* About Text */
+.about-text {
+	max-width: 1500px;
+	text-align: justify;
+}
+/* About Text End*/
+.main-about {
+	background: #4c4c4c;
+}
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
+/* Photo Swiper */
+.swiper-slide {
+  padding: 16px;
+  transition: 0.5s;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
+/* Photo Swiper End*/
 
 @keyframes bounce {
     from {

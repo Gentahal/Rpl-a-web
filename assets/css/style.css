@@ -129,7 +129,38 @@ img {
 .about-text {
     margin: auto;
 	text-align: justify;
+  margin: auto;
 }
+
+.logo img {
+  width: 60px;
+  transition: .3s;
+}
+
+.logo img:not(:first-child) {
+  margin-left: -20px;
+}
+
+.logo img:hover + img {
+  margin-left: 0;
+}
+
+.logo img:last-child:hover {
+  margin-left: 0;
+}
+
+.logo img:hover {
+  width: 80px;
+}
+
+.see-more {
+  transition: 0.3s ease;
+}
+
+.see-more:hover {
+  color: #08c !important;
+}
+
 /* About Text End*/
 .main-about {
 	background: #4c4c4c;

@@ -20,7 +20,7 @@ function setTheme(theme, icon) {
 	localStorage.setItem("icon", icon);
 	if (
 		(theme_switcher.getAttribute("name") == "" && theme == "") ||
-		(theme = null && icon == null)
+		(theme == null && icon == null)
 	) {
 		theme_switcher.setAttribute("name", "moon-outline");
 	}

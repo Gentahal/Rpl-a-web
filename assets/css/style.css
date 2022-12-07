@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 /* ROOT */
 :root {
-    --primary: #08c;
-    --secondaryy: #fff;
-    --yellow: #EDC25F;
-    --black: #000;
+	--primary: #08c;
+	--secondaryy: #fff;
+	--yellow: #edc25f;
+	--black: #000;
 }
 
 @font-face {
-  font-family: "SF Pro";
-  src: url(../fonts/SF-Pro.ttf);
+	font-family: "SF Pro";
+	src: url(../fonts/SF-Pro.ttf);
 }
 
 ion-icon {
-    color: #ffe600;
+	color: #ffe600;
 }
 
 html.light {
-    --primary: #08c;
-    color: var(--black);
+	--primary: #08c;
+	color: var(--black);
 }
 
 html.dark {
-    --primary: #4c4c4c;
-    color: var(--secondaryy);
+	--primary: #4c4c4c;
+	color: var(--secondaryy);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', 'sans-serif';
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito", "sans-serif";
 }
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 img {
@@ -67,18 +67,24 @@ img {
 }
 
 .hero h1 {
-  font-family: 'SF Pro';
+	font-family: "SF Pro";
 }
 
 /* Image Welcome */
 
 .image-welcome path {
-    fill: var(--yellow);
-    width: 400px;
+	fill: var(--yellow);
+	width: 400px;
 }
 
-.image-welcome {
-    width: 500px;
+@media screen and (min-width: 576px) {
+	.image-welcome {
+		width: 500px !important;
+	}
+  
+	.welcome-area {
+		width: auto !important;
+	}
 }
 
 /* Image Welcome END */
@@ -102,26 +108,26 @@ img {
 }
 
 .text-title {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 .btn-down {
-    color: var(--secondaryy);
+	color: var(--secondaryy);
 }
 
 .button-down {
-    margin-top: 100px;
-    animation: bounce .6s infinite ease alternate;
+	margin-top: 100px;
+	animation: bounce 0.6s infinite ease alternate;
 }
 
-.main-about{
-    background: #4c4c4c;
+.main-about {
+	background: #4c4c4c;
 }
 
 .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 /* Teachers end */
 
@@ -129,36 +135,36 @@ img {
 .about-text {
 	max-width: 1500px;
 	text-align: justify;
-  margin: auto;
+	margin: auto;
 }
 
 .logo img {
-  width: 60px;
-  transition: .3s;
+	width: 60px;
+	transition: 0.3s;
 }
 
 .logo img:not(:first-child) {
-  margin-left: -20px;
+	margin-left: -20px;
 }
 
 .logo img:hover + img {
-  margin-left: 0;
+	margin-left: 0;
 }
 
 .logo img:last-child:hover {
-  margin-left: 0;
+	margin-left: 0;
 }
 
 .logo img:hover {
-  width: 80px;
+	width: 80px;
 }
 
 .see-more {
-  transition: 0.3s ease;
+	transition: 0.3s ease;
 }
 
 .see-more:hover {
-  color: #08c !important;
+	color: #08c !important;
 }
 
 /* About Text End*/
@@ -168,18 +174,18 @@ img {
 
 /* Photo Swiper */
 .swiper-slide {
-  padding: 16px;
-  transition: 0.5s;
+	padding: 16px;
+	transition: 0.5s;
 }
 
 /* Photo Swiper End*/
 
 @keyframes bounce {
-    from {
-        transform: translateY(0);
-    }
+	from {
+		transform: translateY(0);
+	}
 
-    to {
-        transform: translateY(20px);
-    }
+	to {
+		transform: translateY(20px);
+	}
 }

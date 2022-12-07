@@ -26,7 +26,10 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg bg-idn navbar-dark fixed-top" id="main-navbar">
+		<nav
+			class="navbar navbar-expand-lg bg-idn navbar-dark sticky-top"
+			id="main-navbar"
+		>
 			<div class="container">
 				<a class="navbar-brand text-white" href="#">XI RPL A</a>
 				<button
@@ -43,7 +46,9 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#home">Home</a>
+							<a class="nav-link active" aria-current="page" href="#home"
+								>Home</a
+							>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#about">About</a>
@@ -73,10 +78,12 @@
 
 		<main data-bs-spy="scroll" data-bs-target="#main-navbar">
 			<section
-        id="home"
+				id="home"
 				class="d-flex justify-content-center align-items-center flex-column vh-100 bg-idn"
 			>
-				<div class="welcome-area d-flex justify-content-center flex-column w-100 px-4">
+				<div
+					class="welcome-area d-flex justify-content-center flex-column w-100 px-4"
+				>
 					<div class="image-welcome w-100">
 						<svg
 							class=""
@@ -188,152 +195,177 @@
 				</div>
 			</section>
 
-			<section
-				id="about"
-				class="hero d-flex align-items-center justify-content-center flex-column px-4"
-				style="background-attachment: fixed"
-			>
-				<h1 class="fw-semibold fs-2 text-center text-uppercase">
-					We Survived through The Big War of Idn Together and will Finish
-					Together.
-				</h1>
-				<p class="text-center">
-					3.2
-					<span class="text-warning">|</span>
-					20 members
-					<span class="text-warning">|</span>
-					Software Engineering
-				</p>
-			</section>
-
-			<section class="teachers">
-				<div
-					class="teachers-wrapper w-75 row mx-auto justify-content-center gap-5 mt-3"
+			<section id="about">
+				<section
+					class="hero d-flex align-items-center justify-content-center flex-column px-4"
+					style="background-attachment: fixed"
 				>
-					<div
-						class="teacher col-md-3 bg-idn rounded-4 d-flex justify-content-center"
-					>
-						<img
-							src="./assets/images/jabbar.png"
-							alt="Ustad Jabbar"
-							class="img-fluid"
-						/>
-					</div>
-					<div
-						class="teacher col-md-3 bg-idn rounded-4 d-flex justify-content-center"
-					>
-						<img
-							src="./assets/images/fahmi.png"
-							alt="Kak Fahmi"
-							class="img-fluid"
-						/>
-					</div>
-					<div
-						class="teacher col-md-3 bg-idn rounded-4 d-flex justify-content-center"
-					>
-						<img
-							src="./assets/images/gaos.png"
-							alt="Ustad Gaos"
-							class="img-fluid"
-						/>
-					</div>
-				</div>
-			</section>
+					<h1 class="fw-semibold fs-2 text-center text-uppercase">
+						We Survived through The Big War of Idn Together and will Finish
+						Together.
+					</h1>
+					<p class="text-center">
+						3.2
+						<span class="text-warning">|</span>
+						20 members
+						<span class="text-warning">|</span>
+						Software Engineering
+					</p>
+				</section>
 
-			<section class="about-text mt-5 mx-auto fs-5 row">
-				<p>
-					Lorem ipsum dolor sit amet consectetur. Morbi consectetur fermentum
-					sodales est vel. Nulla tempor nunc semper netus faucibus mus blandit
-					mauris. Dui rhoncus amet morbi id. Malesuada auctor sagittis sed
-					posuere sit. Tortor sed blandit id maecenas id venenatis. Vestibulum
-					blandit aliquam ac tincidunt. Nullam sapien semper sed magna dui. Ut
-					non in quisque tortor. Purus faucibus vitae id et condimentum sed
-					quam. Dui rhoncus amet morbi id. Malesuada auctor sagittis sed posuere
-					sit. Tortor sed blandit id maecenas id venenatis.
-				</p>
-			</section>
-
-			<!-- Swiper -->
-			<div class="swiper mySwiper">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 23.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 24.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 25.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 26.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 27.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 18.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 19.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 20.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 21.png" />
-					</div>
-					<div class="swiper-slide">
-						<img src="/assets/images/Instagram post - 22.png" />
-					</div>
-				</div>
-				<div class="swiper-button-next">
-					<ion-icon name="arrow-forward-circle-outline"></ion-icon>
-				</div>
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-pagination"></div>
-			</div>
-
-			<section class="about-text mt-5">
-				<div class="row mx-0">
-					<h2>Skill member of RPL A</h2>
+				<section class="teachers">
 					<div
-						class="text-about col-md-6 d-flex justify-content-center align-items-start flex-column"
+						class="teachers-wrapper w-75 row mx-auto justify-content-center gap-5 mt-3"
 					>
-						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
-							velit. Maxime aut, ab repudiandae, dolorem deleniti modi,
-							blanditiis harum exercitationem itaque tempore beatae sit. Minus,
-							mollitia totam? Consequatur a minus voluptatum unde, tenetur
-							repellat pariatur ad dignissimos maiores non quaerat porro
-							delectus laudantium amet deleniti, sit, at sint cum alias id!
-							Fugit ut labore nulla autem, rerum voluptatum ullam aliquid? Quis
-							eum deserunt quaerat, facere deleniti sint eius quae repellendus
-							consectetur placeat excepturi, inventore quasi magni sapiente
-							voluptate saepe nulla, nihil repellat. Dolorem tenetur beatae
-							sapiente! Quod perferendis vitae ab? Unde maiores veritatis, earum
-							quisquam at animi nisi enim? Alias?
-						</p>
-						<div class="d-flex align-items-center flex-wrap gap-4">
-							<div class="d-flex logo align-items-center">
-								<img src="assets/images/html.png" alt="" />
-								<img src="assets/images/css.png" alt="" />
-								<img src="assets/images/js.png" alt="" />
-								<img src="assets/images/kotlin.png" alt="" />
-							</div>
-							<a
-								class="see-more m-0 text-black text-decoration-none fs-6"
-								href="projects.html"
-								>See More -></a
-							>
+						<a
+							class="teacher col-md-3 bg-idn rounded-4 d-flex justify-content-center"
+							role="button"
+							tabindex="0"
+							data-bs-toggle="popover"
+							data-bs-placement="bottom"
+							data-bs-trigger="hover focus"
+							data-bs-custom-class="teacher-popover"
+							data-bs-title="Ustad Jaber"
+							data-bs-content="Merupakan guru asrama kelas RPL A"
+						>
+							<img
+								src="./assets/images/jabbar.png"
+								alt="Ustad Jabbar"
+								class="img-fluid"
+							/>
+						</a>
+						<a
+							class="teacher col-md-3 bg-idn rounded-4 d-flex justify-content-center"
+							role="button"
+							tabindex="0"
+							data-bs-toggle="popover"
+							data-bs-placement="bottom"
+							data-bs-trigger="hover focus"
+							data-bs-custom-class="teacher-popover"
+							data-bs-title="Kak Fahmi"
+							data-bs-content="Merupakan guru IT kami dalam pemrograman website"
+						>
+							<img
+								src="./assets/images/fahmi.png"
+								alt="Kak Fahmi"
+								class="img-fluid"
+							/>
+						</a>
+						<a
+							class="teacher col-md-3 bg-idn rounded-4 d-flex justify-content-center"
+							role="button"
+							tabindex="0"
+							data-bs-toggle="popover"
+							data-bs-placement="bottom"
+							data-bs-trigger="hover focus"
+							data-bs-custom-class="teacher-popover"
+							data-bs-title="Ustad Gaos"
+							data-bs-content="Merupakan wali kelas kami dan guru fikih"
+						>
+							<img
+								src="./assets/images/gaos.png"
+								alt="Ustad Gaos"
+								class="img-fluid"
+							/>
+						</a>
+					</div>
+				</section>
+
+				<section class="about-text mt-5 mx-auto fs-5 row">
+					<p>
+						Lorem ipsum dolor sit amet consectetur. Morbi consectetur fermentum
+						sodales est vel. Nulla tempor nunc semper netus faucibus mus blandit
+						mauris. Dui rhoncus amet morbi id. Malesuada auctor sagittis sed
+						posuere sit. Tortor sed blandit id maecenas id venenatis. Vestibulum
+						blandit aliquam ac tincidunt. Nullam sapien semper sed magna dui. Ut
+						non in quisque tortor. Purus faucibus vitae id et condimentum sed
+						quam. Dui rhoncus amet morbi id. Malesuada auctor sagittis sed
+						posuere sit. Tortor sed blandit id maecenas id venenatis.
+					</p>
+				</section>
+
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 23.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 24.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 25.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 26.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 27.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 18.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 19.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 20.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 21.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="/assets/images/Instagram post - 22.png" />
 						</div>
 					</div>
-					<div class="img-about col-md-6 mt-3">
-						<img
-							src="/assets/images/WhatsApp Image 2021-09-02 at 20.38.30 (2).jpeg"
-						/>
+					<div class="swiper-button-next">
+						<ion-icon name="arrow-forward-circle-outline"></ion-icon>
 					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
 				</div>
+
+				<section class="about-text mt-5">
+					<div class="row mx-0">
+						<h2>Skill member of RPL A</h2>
+						<div
+							class="text-about col-md-6 d-flex justify-content-center align-items-start flex-column"
+						>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Dolorum, velit. Maxime aut, ab repudiandae, dolorem deleniti
+								modi, blanditiis harum exercitationem itaque tempore beatae sit.
+								Minus, mollitia totam? Consequatur a minus voluptatum unde,
+								tenetur repellat pariatur ad dignissimos maiores non quaerat
+								porro delectus laudantium amet deleniti, sit, at sint cum alias
+								id! Fugit ut labore nulla autem, rerum voluptatum ullam aliquid?
+								Quis eum deserunt quaerat, facere deleniti sint eius quae
+								repellendus consectetur placeat excepturi, inventore quasi magni
+								sapiente voluptate saepe nulla, nihil repellat. Dolorem tenetur
+								beatae sapiente! Quod perferendis vitae ab? Unde maiores
+								veritatis, earum quisquam at animi nisi enim? Alias?
+							</p>
+							<div class="d-flex align-items-center flex-wrap gap-4">
+								<div class="d-flex logo align-items-center">
+									<img src="assets/images/html.png" alt="" />
+									<img src="assets/images/css.png" alt="" />
+									<img src="assets/images/js.png" alt="" />
+									<img src="assets/images/kotlin.png" alt="" />
+								</div>
+								<a
+									class="see-more m-0 text-black text-decoration-none fs-6"
+									href="projects.html"
+									>See More -></a
+								>
+							</div>
+						</div>
+						<div class="img-about col-md-6 mt-3">
+							<img
+								src="/assets/images/WhatsApp Image 2021-09-02 at 20.38.30 (2).jpeg"
+							/>
+						</div>
+					</div>
+				</section>
 			</section>
 		</main>
 

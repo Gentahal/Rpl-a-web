@@ -81,7 +81,7 @@ img {
 	.image-welcome {
 		width: 500px !important;
 	}
-  
+
 	.welcome-area {
 		width: auto !important;
 	}
@@ -107,6 +107,17 @@ img {
 	box-shadow: rgba(0, 136, 204, 0.6) 15px 10px 15px;
 }
 
+.teacher-popover {
+  --bs-popover-max-width: 300px;
+  --bs-popover-border-color: var(--primary);
+  --bs-popover-header-bg: var(--primary);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+}
+/* Teachers end */
+
 .text-title {
 	font-size: 2em;
 }
@@ -129,7 +140,6 @@ img {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-/* Teachers end */
 
 /* About Text */
 .about-text {

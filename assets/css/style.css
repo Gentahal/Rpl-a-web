@@ -133,7 +133,7 @@ img {
 
 /* About Text */
 .about-text {
-	max-width: 1500px;
+    margin: auto;
 	text-align: justify;
 	margin: auto;
 }

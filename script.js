@@ -49,6 +49,10 @@ const swiper = new Swiper(".mySwiper", {
     1000: {
       slidesPerView: 3,
     },
+
+    1440: {
+      slidesPerView: 5,
+    }
   },
 	navigation: {
 		nextEl: ".swiper-button-next",
@@ -66,7 +70,7 @@ const swiper = new Swiper(".mySwiper", {
 });
 
 // Enable Popper
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+const popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })

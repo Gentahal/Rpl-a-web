@@ -108,13 +108,13 @@ img {
 }
 
 .teacher-popover {
-  --bs-popover-max-width: 300px;
-  --bs-popover-border-color: var(--primary);
-  --bs-popover-header-bg: var(--primary);
-  --bs-popover-header-color: var(--bs-white);
-  --bs-popover-body-padding-x: 1rem;
-  --bs-popover-body-padding-y: .5rem;
-  box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+	--bs-popover-max-width: 300px;
+	--bs-popover-border-color: var(--primary);
+	--bs-popover-header-bg: var(--primary);
+	--bs-popover-header-color: var(--bs-white);
+	--bs-popover-body-padding-x: 1rem;
+	--bs-popover-body-padding-y: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
 }
 /* Teachers end */
 
@@ -143,30 +143,24 @@ img {
 
 /* About Text */
 .about-text {
-    margin: auto;
+	margin: auto;
 	text-align: justify;
 	margin: auto;
 }
 
-.logo img {
+.logo a {
 	width: 60px;
 	transition: 0.3s;
-  margin-left: -20px;
+	margin-left: -20px;
 }
 
-.logo img:first-child {
+.logo a:first-child,
+.logo a:hover + a,
+.logo a:last-child:hover {
 	margin-left: 0;
 }
 
-.logo img:hover + img {
-	margin-left: 0;
-}
-
-.logo img:last-child:hover {
-	margin-left: 0;
-}
-
-.logo img:hover {
+.logo a:hover {
 	width: 80px;
 }
 

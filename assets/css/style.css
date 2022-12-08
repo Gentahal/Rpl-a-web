@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: "SF Pro";
-	src: url(../fonts/SF-Pro.ttf);
+	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 ion-icon {
